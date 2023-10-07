@@ -4,6 +4,10 @@
 
 body {
     margin: 0;
+    color: black;
+    font-size: 28.06px;
+    font-family: Inter, sans-serif;
+    background-color: #282D35
 }
 
 nav {
@@ -12,4 +16,61 @@ nav {
     background-color: #21222A;
     height: 90px;
     padding: 30px 25px;
+}
+
+.nav--title, .nav--context {
+    margin: 0;
+}
+
+.nav--title{
+    margin-right: auto;
+    color: #61DAFB;
+    font-size: 22.25px;
+    font-family: Inter;
+    font-weight: 700;
+}
+.nav--context{
+    color: #DEEBF8;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.nav--logo {
+    height: 30px;
+    margin-right: 7px
+}
+
+main{
+    padding: 57px 27px;
+    color: white;
+    background-image: url('../../image/Group.svg');
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    padding: 20px 6px;
+}
+
+.main--head{
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+
+}
+
+.main--list{
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--list > li{
+    font-size: 16px;
+    line-height: 19.67px;
+    padding-block: 10px
+}
+.main--list > li::marker{
+    color: #61DAFB;
+    font-size: 1.4rem;
+
 }
